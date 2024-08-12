@@ -1,0 +1,59 @@
+.imagenes{
+    display: flex;
+}
+
+#logoC{
+   margin-left: 60%;
+}
+
+
+
+.barra {
+    height: 65px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #02A64D;
+    color: white;
+    text-align: center;
+    line-height: 65px;
+    margin-left: 350px;
+    border-radius: 10px;
+}
+
+.nav {
+    font-style: normal;
+    font-family: "Oxygen", sans-serif;
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+  
+}
+
+.nav li {
+    padding: 0 20px;
+}
+
+.nav li:hover {
+    background-color: #D75229;
+}
+
+.nav li a {
+
+    text-decoration: none;
+    color: white;
+    padding: 15px 0;
+    font-size: 1.7em;
+}
+
+
+.titProductos{
+    width: 300px;
+    height: 50px;
+   background-color: #ED1B24;
+   text-align: center;
+    line-height: 50px;
+   font-size: 1.7em;
+   color: aliceblue;
+}

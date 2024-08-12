@@ -1,0 +1,109 @@
+.imagenes{
+    display: flex;
+}
+
+#logoC{
+   margin-left: 60%;
+}
+
+
+
+.barra {
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #02A64D;
+    color: white;
+    text-align: center;
+    line-height: 65px;
+}
+
+
+.nav {
+    font-style: normal;
+    font-family: "Oxygen", sans-serif;
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+}
+
+.nav li {
+    padding: 0 20px;
+}
+
+.nav li:hover {
+    background-color: #D75229;
+}
+
+.nav li a {
+
+    text-decoration: none;
+    color: white;
+    padding: 15px 0;
+}
+
+.Tproductos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.productos{
+    border: 3px solid black;
+    width: 330px;
+    margin-top: 15px;
+ } 
+
+
+#aceite{
+    width: 310px;
+}
+
+#tituloAceite{
+    font-size: 0.9em;
+}
+
+
+
+
+.atunProducto{
+    border: 3px solid black;
+    width: 330px;
+    margin-top: 15px;
+}
+
+#atunes{
+    width: 200px;
+    height: 200px;
+}
+
+#tituloAtunes{
+    font-size: 0.9em;
+}
+
+.Arrozproducto{
+    border: 3px solid black;
+    width: 330px;
+    margin-top: 15px;
+}
+
+#tituArroz{
+    font-size: 0.9em;
+}
+
+
+.botonDeCompra button{
+    margin-left: 90px;
+    height: 35px;
+    background-color: #02A64D;
+    color: aliceblue;
+    font-size: 1.1em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.Tproductos> div{
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0, 0.75);
+    border-radius: 5px;
+}
